@@ -1,0 +1,238 @@
+%
+%  This is an example of how a LaTeX thesis should be formatted.  This
+%  document contains chapter 1 of the thesis.
+%
+%  Time-stamp: "[sample-chapter1.tex] last modified by Scott Budge (scott) on 2017-01-12 (Thursday, 12 January 2017) at 10:20:50 on goga.ece.usu.edu"
+%
+%  Info: $Id: sample-chapter1.tex 998 2017-03-21 16:44:33Z scott $   USU
+%  Revision: $Rev: 998 $
+% $LastChangedDate: 2017-03-21 10:44:33 -0600 (Tue, 21 Mar 2017) $
+% $LastChangedBy: scott $
+%
+
+\chapter{INTRODUCTION}
+%%%%%%%% This line gets rid of page number on first page of text
+\thispagestyle{empty}
+%%%%%%%%%%%%%
+
+\section{Background}
+Noncircular spheroids can be used to approximate the shape of vehicles traveling in ocean environments where density varies in the water column. This density stratification is generally a result of salt content and temperature variation from uneven heating. A simple cross-flow past a slender body for an approximation is not satisfactory, because the vehicle undergoes solid-body rotation as it pitches to change directions. The addition of spin affects the forces of the fluid acting on the body in part through an effect known as added-mass. Added-mass is where fluid is carried with the rotation of a body, creating a zone of fluid mass that to an extant behaves with the body.  Stratification is an important feature because it creates vertical confinement where fluid is restricted from traveling vertically across isopycnals. This is due to fluid particles preferring to remain in their positions of similar density. This creates a buildup of pressure in front of the body, increasing  drag in a phenomenon known as upstream blocking. Vertical confinement also suppresses vortex-shedding. Another significant feature of stratified flows is internal gravity waves (IGW). When fluid particles of a given density are disturbed from their equilibrium positions, they are subjected to a restoring force, creating a spring-like system of oscillation. Understanding how rotation and stratification affect the flow when combined motivates this computational study. In this study look at full rotation rather than pitching oscillations because we want to first develop an understanding of how basic rotation interacts with stratification.
+
+Work by Fernando et al. is considered foundational in the of field bluff-bodies in stratified flow. They run experiments of a nonrotating, horizontal cylinder in a stratified flow inside a tank. They ran experiments in the parameter space of $\{2000 \leq \Rey \leq 6000, 0.81 \leq Fr^2 \leq  169.0\}$. They investigate the effects these two parameters have on turbulent wake size and other structures. A paper that draws on the work of Fernando et al. is that of Deng et al. \cite{deng_drag_2022} who conducted numerical simulations of setups similar to Fernando et al. This paper is one of the few to look at drag of bodies in stratified flows. They applied the Bousinesq Approximation the simulations. They show how high stratification ($Fr^2 \approx 0.02$) substantially increases drag. This is a results of the upstream blocking that occurs because stratification resists motion across isopycnals, which in this case is vertical motion. This study also looks at the empirical stability parameter, $k$. This parameter is a function of $Fr^2$ and $\Rey$, and it estimates if there will be vortex-shedding. They found that $k$ behaves similarly to the drag coefficient at $Fr^2 \in (.25, 1)$.
+
+Research by Ortiz et al. \cite{ortiz-tarin_stratified_2019} is among the first to look at translating nonrotating spheroids in stratified mediums by conducting 3D simulations using the finite-difference method . Their research looks at bodies of an aspect ratio ($AR$) of 4 at $\Rey = 10^4$. They compare a homogeneous case and three cases in the range $Fr^2 \in \{9, 1, 0.25\}$. Their analysis scrutinized the effect of $Fr^2$ on internal gravity waves by looking at y-velocity plots and show stratification creases periodic semi-circular patters in the flow. They state that IGW are primarily caused by the body itself, wake turbulence, and the coherent structures the body releases. A dominating effect they identify is the 3D horizontal movement of fluid around the body due to vertical confinement. They show some interesting plots of the lines of flow separation behind the body. At $Fr^2 = \infty$, the line is just a circle. As stratification increases, the separation line becomes elliptical, and then becomes more complicated. 
+
+\cite{lu_flow_2018} and \cite{lua_rotating_2018} conduct a parameter sweep of 2D spinning ellipses at $\Rey = 200$ in a homogeneous flow across different rotation rates. They vary their aspect ratios from 0.0625 to 1.0, and they find that at $AR \approx 0.5$, $\Omega^{\ast} > 2.0$, the body produces a thrust larger than the drag it experiences.  Overall, they find that higher angular velocity $\Omega^{\ast}$ results in higher lift magnitude and lower drag. They attribute this thrust to a flow feature they call a "hovering vortex" with a center of low pressure. The hovering vortex exerts a force that pulls the body towards it. If the hovering vortex is in front of the body, it generates thrust. If the hovering vortex is behind the body, it generates drag. 
+
+There has been a recent study conducted by Wang et al. \cite{wang_numerical_2023} looking at the behavior of a nonspherical, rotating body in stratified cross-flow. They conduct numerical simulations at $\Rey = 1000$ of a pitching airfoil, with the objective to fill the gap in knowledge in the field of flapping-foil flow energy harvester performance in stratified flows. They imposed the heaving (vertical translation) and pitching (rotation) motions of the airfoil. They simulated scenarios in the range of $Fr^2 \in [1, 100]$, along with some very high $Fr^2$ cases and $Fr^2 = \infty$ cases. The found that the maximum energy extraction efficiency $\eta$ occurred in homogeneous flows. The value of $\eta$ has a decreasing trend as $Fr^2$ decreases until $Fr^2 = 16$. At that point, $\eta$ decreases substantially to an overall minimum at $Fr^2 = 4$. The value of $\eta$ increased through $Fr^2 = 1$. The power generation is dominated by the heaving motion at $Fr^2 > 2$, and by the pitching motion at $Fr^2 < 2$. The phenomenon behind the decrease in heaving power with decrease in $Fr^2$ is the disappearance of the leading-edge vortex (LEV), which can be attributed vertical confinement. This LEV plays a significant role in synchronicity between the heaving motion and heaving velocity; synchronicity is key to energy extraction efficiency. In the regime where pitching motion dominates energy extraction, the flow is dominated by IGW which create favorable conditions for increasing torque. The IGW dominate other features at high stratification. 
+
+These studies have used lower-fidelity methods. Mittal et al. have developed and utilized an novel method known as the Schwarz-spectral element method (Schwarz-SEM) in the code Nek5000. This method was first validated in their 2019 \textit{Computers and Fluids} paper \cite{mittal_nonconforming_2019} where they show you can simulate flow around complex geometries with multiple overlapping meshes that exchange data. In their 2020 paper in the same journal, Mittal et al. applied this same method to 3D spinning spheroids in homogeneous flows. They validated their spinning sphere cases with results of spinning spheres in literature. They found that rotation angles of maximum drag and lift did not coincide with rotation angles of maximum frontal area and lateral area. They also found that changing the aspect ratio of a spinning spheroid also changes the drag and lift forces acting on the body. They concluded that it is not possible to fully capture the flow features around a rotating body without explicitly modeling the solid-body rotation of the body.  
+
+The rest of this paper is divided into three chapters. In \hyperref[chp:Objectives]{Chapter 2} we discuss the goals for this research project, and in \hyperref[chp:Approach]{Chapter 3} we discuss the approach for meeting the goals we set in \hyperref[chp:Objectives]{Chapter 2}. In 
+%\hyperref[chp:Results]
+{Chapter 4} we show the results we have so far. 
+\\
+
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=0.7\textwidth]{samplefig}
+%\caption{Binary splitting.}
+%\label{fig:split}
+%\end{figure}
+%This figure is generated using an open-source figure drawing package
+%(called {\tt fig}).  Any figure drawing package can be used to
+%generate figures.  The easiest format for output is to output the
+%figures in {\tt .pdf} format for inclusion in the {\tt .tex} file.
+%
+%% For the following three examples, note the problems with the xdvi
+%% viewer described in the thesis.tex and the README.txt files.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TikZ example:  This is the same as the above figure, except done
+%% using TikZ.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}[!t]
+%	\begin{center}
+%		\begin{tikzpicture}[every text node part/.style={align=center}]
+%			% Place nodes:
+%			\draw (0,0) node[draw] (book1) {{\em Codebook}\\ {\small Stage 1}};
+%			\draw ($(book1) + (0,-2)$) node[draw] (vq1) {{\em VQ}\\ {\small Stage 1}};
+%			\draw ($(vq1) + (3,-3)$) node[circle,draw,minimum height=1cm] (adder) {$\Sigma$};
+%			\draw ($(adder) + (5,0)$) node[draw] (vq2) {{\em VQ}\\ {\small Stage 2}};
+%			\draw ($(vq2) + (0,2)$) node[draw] (book2) {{\em Codebook}\\ {\small Stage 2}};
+%			
+%			% Draw arrows:
+%			\draw [-latex] (book1.south) -- (vq1.north);
+%			\draw [-latex] (book2.south) -- (vq2.north);
+%			\draw [-latex] ($(vq1.north east)+(0,-.25)$) node(vqout1) {} -| ($(adder.north)+(0,6)$) node[anchor=south west] (ji) {$j_i$};
+%			\draw [-latex] ($(vq1.south east)+(0,.25)$) node(vqout2) {} -| (adder.north);
+%			\draw [-latex] (vq1.west) -- ($(vq1.west)+(-1,0)$) node (in) {} |- (adder.west);
+%			\draw [-latex] (vq2.east) -| ($(ji.south west) + (7,0)$) node[anchor=south west] (jk2) {$j_k^2$};
+%			\draw ($(vq1.west)+(-2,0)$) node[anchor=east] {$X^1$} to[short,o-*] (in);
+%			\draw [-latex] (in) -- (vq1.west);
+%			\draw [-latex] (adder.east) -- (vq2.west);
+%			
+%			% Draw remaining labels:
+%			\draw (vqout2) node[anchor=north west] {$Y_{j_i^1}^1$};
+%			\draw (adder.north) node[anchor=south east] {$-$};
+%			\draw (adder.west) node[anchor=south east] {$+$};
+%			\draw (adder.east) node[anchor=south west] {$X^1-Y_{j_i^1}^1$};
+%			\draw (vq2.west) node[anchor=south east] {$X^2$};
+%			
+%			% Draw annotation:
+%			\draw ($(ji)!0.5!(jk2) + (0,1)$) node (indices) {\Large Indices};
+%			\draw[thick,-triangle 45] (indices.west) to [out=180,in=45] (ji.north east);
+%			\draw[thick,-triangle 45] (indices.east) to [out=0,in=135] (jk2.north west);
+%		\end{tikzpicture}
+%		\caption{Binary splitting (drawn with TikZ).}
+%		\label{fig:split_tikz}
+%	\end{center}
+%\end{figure}
+%
+%%%%%%%%%%%%%%%%%%
+%% CircuiTikZ example:
+%%%%%%%%%%%%%%%%%%
+%\begin{figure}[!t]
+%	\begin{center}
+%		\begin{tikzpicture}
+%			\draw (0,0) node[op amp,scale=0.75] (oa){};
+%			\draw (oa.out) to[short, -*] ++(1,0) node (n1) {};
+%			\draw (n1.base) -- ++(1,0) to[C,l^=$C_S$,v_=$V_{\textrm{\small out,ofs}}$] ++(3,0) 	node[anchor=west] (n4) {$V_{\textrm{\small out}}$};
+%			\draw (oa.-) to[short,-*] ++(-1,0) node (n2) {};
+%			\draw (n2.base) |- ++(1,2) to[C] ++(2,0) -| (n1.base);
+%			\draw ($(oa.+)+(0,-3)$) node[ground] {}  to[vsource=$V_{\textrm{\small in,ofs}}$] (oa.+);
+%			\draw (n2.base) to[C] ++(-2,0) node[anchor=east] (n3) {$V_{\textrm{\small in}}$};
+%		\end{tikzpicture}
+%		\caption{Circuit example drawn using circuitikz.}
+%		\label{fig:circuitikz_exmple}
+%	\end{center}
+%\end{figure}
+%
+%There are many other ways to create figures.  One package compatible
+%with \LaTeX\ is TikZ.  An example is given in
+%Fig.~\ref{fig:split_tikz}. This is identical to Fig.~\ref{fig:split},
+%except that it is done within the compiling process of \LaTeX.
+%Another example of a third-party figure package is given in
+%Fig.~\ref{fig:circuitikz_exmple}.  This circuit was generated using
+%the {\tt circuitikz} package.
+%
+%It is important that there is no text between figures when they are
+%referenced close together in the text.  They should be ``stacked''
+%without text in between as seen above.
+%
+%A final way of creating graphs is to use a open-sourse package called
+%{\tt PGFPlots}.  An example of a good-looking graph generated using
+%this package is given in Fig~\ref{fig:pgfplots_example}.  Note that
+%this figure is large enough that it is pushed by \LaTeX\ to another
+%page by itself and nicely centered.
+%%%%%%%%%%%%%%%%%%
+%% PGFplots example:
+%%%%%%%%%%%%%%%%%%
+%\begin{figure}[tbh]
+%\begin{center}
+%\begin{tikzpicture}
+%\begin{semilogyaxis}
+%[% 
+%scale only axis, 
+%width=5in, 
+%height=5in, 
+%xmin=0, 
+%xmax=0.21, 
+%xtick={0, 0.04, ..., 0.2},
+%ymin=1e-006, 
+%ymax=1, 
+%yminorticks=true, 
+%%xlabel={$\text{Tx Pulse amplitude }(\si{\volt})$},
+%xlabel={Tx Pulse amplitude (V)},
+%ylabel={Bit Error Probability}, 
+%xmajorgrids, 
+%ymajorgrids, 
+%yminorgrids,
+%legend columns=3,
+%legend style={at={(0.5,-0.1)},anchor=north},%{at={(0.5,-0.5)},anchor=south},
+%cycle multi list={%
+%   color list\nextlist
+%   [3 of]mark list}
+%]
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%8p_NF4_uncoded
+%\addplot [ color=blue, solid, mark=*, mark options={fill=blue} ] 
+%coordinates{  
+%(0.001,0.478052)(0.011,0.272706)(0.021,0.124776)(0.031,0.045402)(0.041,0.013449)(0.051,0.003469)(0.061,0.00094)(0.071,0.000328)(0.081,0.00017)(0.091,0.000108)(0.101,7.9e-005)(0.111,6e-005)(0.121,5.4e-005)(0.131,4.4e-005)(0.141,3.7e-005)(0.151,3.6e-005)(0.161,3.2e-005)(0.171,3.1e-005)(0.181,2.7e-005)(0.191,2.6e-005)(0.201,2.5e-005)  
+%    };
+%\addlegendentry{Uncoded}
+%
+%%8p_NF4_hard
+%\addplot [ color=red, line width=1pt,dashed, mark=*,  mark options={fill=red},]
+%coordinates{  
+%(0.001,0.499268)(0.011,0.377753)(0.021,0.122226)(0.031,0.01535)(0.041,0.001172)(0.051,7.3e-005)(0.061,5e-006)(0.071,0)  
+%};
+%\addlegendentry{Hard decoded}
+%
+%%8p_NF4_soft
+%\addplot [ color=black, dotted, line width=1.25pt,mark=*, mark options={fill=black} ] 
+%coordinates{  (0.001,0.49911)(0.011,0.352208)(0.021,0.065849)(0.031,0.002668)(0.041,6e-005)(0.051,1e-006)  
+%};
+%\addlegendentry{Soft decoded}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%8p_NF5_uncoded
+%\addplot [ color=blue, solid, mark=diamond*, mark options={fill=blue} ]
+%coordinates{  (0.001,0.480507)(0.011,0.294723)(0.021,0.1521)(0.031,0.065413)(0.041,0.023695)(0.051,0.007415)(0.061,0.002195)(0.071,0.000714)(0.081,0.000305)(0.091,0.000167)(0.101,0.000109)(0.111,8.4e-005)(0.121,6.8e-005)(0.131,5.6e-005)(0.141,4.7e-005)(0.151,4.2e-005)(0.161,3.8e-005)(0.171,3.4e-005)(0.181,3.2e-005)(0.191,3.1e-005)(0.201,2.9e-005)      };
+%\addlegendentry{Uncoded}
+%
+%%8p_NF5_hard
+%\addplot [ color=red, dashed, mark=diamond*, mark options={fill=red} ]
+%coordinates{  (0.001,0.499279)(0.011,0.403647)(0.021,0.17325)(0.031,0.033326)(0.041,0.003852)(0.051,0.000361)(0.061,2.9e-005)(0.071,3e-006)(0.081,1e-006)        
+%};
+%\addlegendentry{Hard decoded}
+%
+%%8p_NF5_soft
+%\addplot [ color=black, dotted, line width=1.25pt,mark=diamond*, mark options={fill=black} ]
+%coordinates{  (0.001,0.499265)(0.011,0.385162)(0.021,0.113072)(0.031,0.008749)(0.041,0.000313)(0.051,1e-005)(0.061,0)  
+%};
+%\addlegendentry{Soft decoded}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%8p_NF6_uncoded
+%\addplot [ color=blue, solid, mark=square*, mark options={fill=blue} ]
+%coordinates{  (0.001,0.482503)(0.011,0.315407)(0.021,0.179759)(0.031,0.088806)(0.041,0.038068)(0.051,0.014303)(0.061,0.004914)(0.071,0.001661)(0.081,0.000644)(0.091,0.000297)(0.101,0.000177)(0.111,0.000122)(0.121,9.5e-005)(0.131,7.1e-005)(0.141,5.8e-005)(0.151,5.3e-005)(0.161,4.6e-005)(0.171,4.2e-005)(0.181,3.6e-005)(0.191,3.4e-005)(0.201,3.3e-005)       };
+%\addlegendentry{Uncoded}
+%
+%%8p_NF6_hard
+%\addplot [ color=red, dashed, mark=square*, mark options={fill=red} ]
+%coordinates{
+%(0.001,0.499326)(0.011,0.424875)(0.021,0.22663)(0.031,0.062807)(0.041,0.010536)(0.051,0.001333)(0.061,0.000145)(0.071,1.6e-005)(0.081,4e-006)(0.091,0)  
+%};
+%\addlegendentry{Hard decoded}
+%
+%%8p_NF6_soft
+%\addplot [ color=black, dotted, line width=1.25pt,mark=square*, mark options={fill=black} ] 
+%coordinates{  (0.001,0.499363)(0.011,0.411563)(0.021,0.169253)(0.031,0.02352)(0.041,0.001472)(0.051,7.3e-005)(0.061,3e-006)(0.071,0)      
+%};
+%\addlegendentry{Soft decoded}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\end{semilogyaxis}
+%
+%\end{tikzpicture}
+%
+%\caption{Example figure made with PGFplots. Originally created in Matlab, then exported using the Matlab2TikZ script (available from Matlab Central). Then pasted into the \LaTeX\ document and edited for style. \label{fig:pgfplots_example} }
+%\end{center}
+%\end{figure}
+
+
+
+% For use with multiple-paper format, uncomment the fillowing:
+% \pagebreak
+% \bibliographystyle{IEEEtran}
+% \bibliography{IEEEabrv,BibFile1}  % uses the references stored in BibFile1.bib for this chapter
+
+% Local Variables:
+% TeX-master: "newhead"
+% End:

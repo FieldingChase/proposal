@@ -1,0 +1,161 @@
+%
+%  --- USU thesis and dissertation template ---
+%
+% Time-stamp: "[thesis.tex] last modified by Scott Budge (scott) on 2019-05-08 (Wednesday, 8 May 2019) at 19:28:11 on goga.ece.usu.edu"
+%
+%  Modified to use the new usuthesis.cls by Allan McInnes
+%
+%  Specify department ('ee' or 'ce' or 'me' or 'ae' or 'cee') and document type ('msthesis',
+%  'msreport', or 'dissertation') in the documentclass options. 
+%
+%  Including the 'proposal' option will generate a proposal for a thesis
+%  or dissertation, rather than a final document (this mostly just 
+%  alters the cover page).
+%
+%  See the opening comments of usuthesis.cls for more information on 
+%  available options
+%
+%  To create finished document run:
+%    latex thesis.tex
+%    bibtex thesis (or sample-chapter1, etc., if using multiple-paper format)
+%    latex thesis.tex
+%    latex thesis.tex
+%
+%  Info: $Id: thesis.tex 1142 2019-05-09 01:41:53Z scott $   USU
+%  Revision: $Rev: 1142 $
+% $LastChangedDate: 2019-05-08 19:41:53 -0600 (Wed, 08 May 2019) $
+% $LastChangedBy: scott $
+%
+
+% For the ECE Department:
+%\documentclass[ee,msthesis]{usuthesis}
+%\documentclass[ce,msthesis]{usuthesis}
+%\documentclass[ee,dissertation]{usuthesis}
+%\documentclass[ce,dissertation]{usuthesis}
+
+
+% For the MAE Department:
+\documentclass[me,msthesis]{usuthesis}  % Unfortunately, this template was made before we became MAE. So sorry.
+%\documentclass[ae,msthesis]{usuthesis} %.        DON"T FORGET TO ALSO CHANGE LINE 90-110 appropriately          %%
+%\documentclass[me,dissertation]{usuthesis} % Unfortunately, this template was made before we became MAE. So sorry.
+%\documentclass[ae,dissertation]{usuthesis}
+% For the CEE Department:
+%\documentclass[cee,msthesis]{usuthesis}
+%\documentclass[cee,dissertation]{usuthesis}
+
+
+%{{{ Packages
+\usepackage{amssymb}           % add ams symbols stuff
+\usepackage{graphicx}          % add graphics
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage[nobottomtitles*]{titlesec}
+\usepackage[all]{nowidow}
+\usepackage{mathtools} 
+\usepackage{epstopdf, epsfig}
+%\usepackage{flafter}           % Cause floats to appear after
+                               % environment.
+%\usepackage{siunitx}           % Provides standard formatting of SI units.
+
+% Include TikZ and PGF packages for high-quality graphics, schematics
+% and plots. This is optional; at the current time, when run with
+% latex to create a .dvi file, the xdvi viewer will produce incorrect
+% formatting for the TikZ figures.  If the .dvi file is converted to
+% pdf using "dvipdf" the resulting pdf file is correct.  If this
+% example is used with  pdflatex, the resulting TikZ figures in the
+% output look fine.
+\usepackage{tikz}       		% The base tikz+pgf package
+\usetikzlibrary{arrows,shapes}	% Optional tikz extensions
+\usepackage[american]{circuitikz}	% TikZ-based package for schematic drawings
+\usepackage{pgfplots}			% Tikz-based package for making plots 
+\pgfplotsset{compat=1.6}        % This *might* be necessary for your
+                                % version of pgfplots.
+\graphicspath{{images/}}                                
+
+
+\usepackage{hyperref} % Creates hyperlinks within document
+\hypersetup{colorlinks=true, linkcolor=blue,
+  citecolor=blue,urlcolor=blue} % Use when compiling the digital copy
+% \hypersetup{colorlinks=true, linkcolor=black,
+% citecolor=black,urlcolor=black} % Use when compiling the printed copy
+
+% The following allows for hyperlinked DOIs to be inserted in the
+% manuscript by using \doi{}.
+\usepackage{doi}
+
+% Set spacing around figures and tables to triple space
+\setlength{\intextsep}{2em} % Vertical space above & below [h] floats
+\setlength{\textfloatsep}{2em} % Vertical space below (above) [t] ([b]) floats
+
+% The following is added if you are using the multiple-paper format to
+% add references after each chapter:
+%\usepackage[sectionbib]{chapterbib}
+
+%}}}
+
+% Creating Anton's own symbols
+\newcommand\Rey{\mathit{Re}}
+\newcommand\Pran{\mathit{Pr}}
+
+% Author and Title Information
+\author{Anton G. Kadomtsev}
+\title{A Complicated and Impressive Sounding Title that is Too Long
+  For a Single Line While Including Everything}
+
+% The Committee
+\majorprof{Som Dutta, Ph.D.}
+\firstreader{Robert L. Forward, Ph.D.}
+\secondreader{Albert Einstein, Ph.D.}
+\thirdreader{Gottfried Liebniz, Ph.D.}
+\fourthreader{Isaac Newton, Ph.D.}	
+
+% Graduate Dean
+\graddean{Richard Cutler, Ph.D.}
+\deantitle{Vice Provost for Graduate Studies}
+
+% Degree Information
+%\degree{Master of Science}
+\degree{Master of Science}
+\month{August}
+\gradyear{2023}
+
+\begin{document}
+    %{{{ Frontmatter
+    \preliminaries   % set frontmatter style
+    
+    \maketitle
+    \makecopyright        % optional
+    
+    \include{abstract}
+    \include{publicabstract}
+    \include{dedication}  % This is optional 
+    \include{acknowl}     % This is optional
+    
+    \tableofcontents 
+    \listoftables 
+    \listoffigures
+    
+    %\include{notation}  % optional
+    \include{acronyms}  % This is optional  
+    %}}}
+    %{{{ The main body of the thesis
+    \body  % set main body style
+    % Chapters
+    \include{sample-chapter1}
+    \include{sample-chapter2}
+    \include{Introduction}
+    \include{Objectives}
+    \include{3_Approach} % or Plan to meet objectives
+    \include{4_Results}
+    
+    % Endmatter
+    % For BibTeX references: specify a .bib file and a style.
+    % The style used here is for IEEE transactions formatting:
+    \references{IEEEabrv,sample,lib}{IEEEtran}
+    % The style used here is for AIAA formatting:
+%    \references{IEEEabrv,sample}{aiaa}
+    
+    \include{appendix}
+    \include{vita} %This is optional for the Thesis proposal or Dissertation proposal but is REQUIRED for the Thesis or Dissertation!!!
+    %}}}
+\end{document}

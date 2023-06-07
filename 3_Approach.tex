@@ -1,0 +1,8 @@
+\chapter{Approach}
+\label{chp:3_Approach}
+To identify the right domain size and boundary conditions, I will conduct 2D spinning circle simulations at $\Omega^{\ast} = 1, 3$ with periodic and symmetric boundary conditions. The three different domain heights that will be tested are $40D, 80D, 120D$. The main purpose of the $\Omega^{\ast}=1$ cases is to find which boundary conditions and domain size satisfy our needs, since our parameter sweep will occur at $\Omega^{\ast}=1$. We will see at what domain size are the values of drag insensitive to changes in boundary conditions and domains height. The main purpose of the $\Omega^{\ast}=3$ cases is to identify the physics, since the effects will be obvious. We will plot the surface pressure distribution of the circles to see how the pressure distribution shifts. 
+
+To validate the Schwarz-SEM (Neknek) framework for spinning ellipses, I will run simulations at $\Rey = 200$ of spinning ellipses of aspect ratios 0.5 and 1.0 at $\Omega^{\ast} = 1,2,3$ in homogeneous flow. I will compare the drag and lift values to those of \cite{lu_flow_2018} and \cite{lua_rotating_2018}.
+\input{3.1_governing_equations_and_setup}
+\input{3.2_schwarz-SEM_framework}
+\input{3.3_validation}
