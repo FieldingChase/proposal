@@ -1,25 +1,25 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic showing aspect ratios of interest\relax }}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces A figure showing the two meshes $\Omega ^1$ and $\Omega ^2$ in the Schwarz-SEM framework\relax }}{9}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Validation of the Schwarz-SEM framework at $\Omega ^{\ast }$ for stratified flow\relax }}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison against Lua et al.\relax }}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces At higher rotation speeds, larger domain sizes are required\relax }}{13}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Pressure and streamline plots at $H = 40D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{13}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Polar plot of pressure on each surface\relax }}{14}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Pressure and streamline plots at $H=120D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{15}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Time series data for nonspinning circle\relax }}{17}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Time series data for spinning circle\relax }}{18}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Mean drag and lift values for $\Omega ^{\ast } = {0,1}$\relax }}{18}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A comparison of the pressure fields for nonspinning and spinning circles\relax }}{19}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A comparison of the y-velocity fields for nonspinning and spinning circles\relax }}{22}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces A comparison of the Schlerien fields for nonspinning and spinning circles\relax }}{23}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A close look of the Schlerien plots at the transition with spin\relax }}{24}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Drag and lift over time averaged across each period for $AR = 1.5$\relax }}{26}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Drag and lift over time averaged across each period for $AR = 0.5$\relax }}{27}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Phase averaged drag and lift for $AR = 1.5$\relax }}{27}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Phase averaged drag and lift for $AR = 0.5$\relax }}{27}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 1.5$\relax }}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 0.5$\relax }}{30}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 1.5$\relax }}{31}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 0.5$\relax }}{32}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 1.5$\relax }}{32}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 0.5$\relax }}{33}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces A figure showing the two meshes $\Omega ^1$ and $\Omega ^2$ in the Schwarz-SEM framework\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Validation of the Schwarz-SEM framework at $\Omega ^{\ast }$ for stratified flow\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison against Lua et al.\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces At higher rotation speeds, larger domain sizes are required\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Pressure and streamline plots at $H = 40D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Polar plot of pressure on each surface\relax }}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Pressure and streamline plots at $H=120D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Time series data for nonspinning circle\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Time series data for spinning circle\relax }}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Mean drag and lift values for $\Omega ^{\ast } = {0,1}$\relax }}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A comparison of the pressure fields for nonspinning and spinning circles\relax }}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A comparison of the y-velocity fields for nonspinning and spinning circles\relax }}{23}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A comparison of the Schlerien fields for nonspinning and spinning circles\relax }}{24}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A close look of the Schlerien plots at the transition with spin\relax }}{25}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Drag and lift over time averaged across each period for $AR = 1.5$\relax }}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Drag and lift over time averaged across each period for $AR = 0.5$\relax }}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Phase averaged drag and lift for $AR = 1.5$\relax }}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Phase averaged drag and lift for $AR = 0.5$\relax }}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 1.5$\relax }}{30}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 0.5$\relax }}{31}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 1.5$\relax }}{32}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 0.5$\relax }}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 1.5$\relax }}{33}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 0.5$\relax }}{34}{figure.caption.38}%

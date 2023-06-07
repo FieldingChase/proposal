@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.7)  7 JUN 2023 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.7)  7 JUN 2023 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,7 +939,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 78.
+Package hyperref Info: Option `colorlinks' set `true' on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/doi/doi.sty
 Package: doi 2018/09/09 handle doi numbers
@@ -961,24 +961,24 @@ LaTeX Warning: Label `sub@fig:ar0p5fsinf' multiply defined.
 ) (./appendix.aux) (./vita.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1036,7 +1036,7 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.6).
 
-Package hyperref Info: Link coloring ON on input line 122.
+Package hyperref Info: Link coloring ON on input line 123.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1048,9 +1048,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 122.
-LaTeX Info: Redefining \pageref on input line 122.
-LaTeX Info: Redefining \nameref on input line 122.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -1167,12 +1167,7 @@ CHAPTER 1.
 
 
 ] [2] [3]
-
-LaTeX Warning: Hyper reference `chp:Approach' on page 4 undefined on input line
- 31.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--35
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
@@ -1201,9 +1196,9 @@ ine 3.
 
 
 
-]
+] [7]
 
-LaTeX Warning: Citation `mittal_direct_2020' on page 7 undefined on input line 
+LaTeX Warning: Citation `mittal_direct_2020' on page 8 undefined on input line 
 36.
 
 Package epstopdf Info: Source file: <images//flow_setup.eps>
@@ -1216,13 +1211,13 @@ Package epstopdf Info: Source file: <images//flow_setup.eps>
 verted-to.pdf images//flow_setup.eps>
 (epstopdf)             \includegraphics on input line 38.
 Package epstopdf Info: Output file is already uptodate.
-<images//flow_setup-eps-converted-to.pdf, id=324, 1113.15875pt x 820.06375pt>
+<images//flow_setup-eps-converted-to.pdf, id=330, 1113.15875pt x 820.06375pt>
 File: images//flow_setup-eps-converted-to.pdf Graphic file (type pdf)
 <use images//flow_setup-eps-converted-to.pdf>
 Package pdftex.def Info: images//flow_setup-eps-converted-to.pdf  used on input
  line 38.
 (pdftex.def)             Requested size: 260.17465pt x 191.6639pt.
-[7] [8 <./images//flow_setup-eps-converted-to.pdf>])
+[8 <./images//flow_setup-eps-converted-to.pdf>] [9])
 (./3.2_schwarz-SEM_framework.tex
 Package epstopdf Info: Source file: <images//mesh.eps>
 (epstopdf)                    date: 2023-06-07 11:25:30
@@ -1234,7 +1229,7 @@ Package epstopdf Info: Source file: <images//mesh.eps>
 -to.pdf images//mesh.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<images//mesh-eps-converted-to.pdf, id=341, 2656.92625pt x 1766.6pt>
+<images//mesh-eps-converted-to.pdf, id=345, 2656.92625pt x 1766.6pt>
 File: images//mesh-eps-converted-to.pdf Graphic file (type pdf)
 <use images//mesh-eps-converted-to.pdf>
 Package pdftex.def Info: images//mesh-eps-converted-to.pdf  used on input line 
@@ -1242,17 +1237,12 @@ Package pdftex.def Info: images//mesh-eps-converted-to.pdf  used on input line
 (pdftex.def)             Requested size: 346.89734pt x 230.63647pt.
 
 
-LaTeX Warning: Citation `merrill_moving_2019' on page 9 undefined on input line
- 10.
+LaTeX Warning: Citation `merrill_moving_2019' on page 10 undefined on input lin
+e 10.
 
 
-LaTeX Warning: Citation `tomboulides_numerical_1997' on page 9 undefined on inp
-ut line 11.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
-
- []
+LaTeX Warning: Citation `tomboulides_numerical_1997' on page 10 undefined on in
+put line 11.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--15
@@ -1264,9 +1254,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--15
 
  []
 
-[9
 
- <./images//mesh-eps-converted-to.pdf>] [10]) (./3.3_validation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+
+ []
+
+[10
+
+ <./images//mesh-eps-converted-to.pdf>] [11]) (./3.3_validation.tex
 Package epstopdf Info: Source file: <images/dragvalnn.eps>
 (epstopdf)                    date: 2023-06-07 11:25:30
 (epstopdf)                    size: 30486 bytes
@@ -1277,18 +1272,18 @@ Package epstopdf Info: Source file: <images/dragvalnn.eps>
 rted-to.pdf images/dragvalnn.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<images/dragvalnn-eps-converted-to.pdf, id=357, 1244.65pt x 747.79375pt>
+<images/dragvalnn-eps-converted-to.pdf, id=360, 1244.65pt x 747.79375pt>
 File: images/dragvalnn-eps-converted-to.pdf Graphic file (type pdf)
 <use images/dragvalnn-eps-converted-to.pdf>
 Package pdftex.def Info: images/dragvalnn-eps-converted-to.pdf  used on input l
 ine 6.
 (pdftex.def)             Requested size: 346.89734pt x 208.41093pt.
-<images//draglua.png, id=361, 361.35pt x 211.5102pt>
+<images//draglua.png, id=364, 361.35pt x 211.5102pt>
 File: images//draglua.png Graphic file (type png)
 <use images//draglua.png>
 Package pdftex.def Info: images//draglua.png  used on input line 15.
 (pdftex.def)             Requested size: 212.47618pt x 124.37036pt.
-<images//liftlua.png, id=362, 361.35pt x 211.5102pt>
+<images//liftlua.png, id=365, 361.35pt x 211.5102pt>
 File: images//liftlua.png Graphic file (type png)
 <use images//liftlua.png>
 Package pdftex.def Info: images//liftlua.png  used on input line 20.
@@ -1303,18 +1298,18 @@ Package epstopdf Info: Source file: <images//domain.eps>
 ed-to.pdf images//domain.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<images//domain-eps-converted-to.pdf, id=364, 1374.13374pt x 866.23625pt>
+<images//domain-eps-converted-to.pdf, id=367, 1374.13374pt x 866.23625pt>
 File: images//domain-eps-converted-to.pdf Graphic file (type pdf)
 <use images//domain-eps-converted-to.pdf>
 Package pdftex.def Info: images//domain-eps-converted-to.pdf  used on input lin
 e 29.
 (pdftex.def)             Requested size: 390.25537pt x 246.00752pt.
-<images//per.png, id=367, 1484.54625pt x 1153.30875pt>
+<images//per.png, id=370, 1484.54625pt x 1153.30875pt>
 File: images//per.png Graphic file (type png)
 <use images//per.png>
 Package pdftex.def Info: images//per.png  used on input line 37.
 (pdftex.def)             Requested size: 212.47618pt x 165.05212pt.
-<images//sym.png, id=369, 1484.54625pt x 1153.30875pt>
+<images//sym.png, id=372, 1484.54625pt x 1153.30875pt>
 File: images//sym.png Graphic file (type png)
 <use images//sym.png>
 Package pdftex.def Info: images//sym.png  used on input line 42.
@@ -1329,25 +1324,25 @@ Package epstopdf Info: Source file: <images//polar.eps>
 d-to.pdf images//polar.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
-<images//polar-eps-converted-to.pdf, id=371, 867.24pt x 578.16pt>
+<images//polar-eps-converted-to.pdf, id=374, 867.24pt x 578.16pt>
 File: images//polar-eps-converted-to.pdf Graphic file (type pdf)
 <use images//polar-eps-converted-to.pdf>
 Package pdftex.def Info: images//polar-eps-converted-to.pdf  used on input line
  51.
 (pdftex.def)             Requested size: 390.25537pt x 260.16959pt.
-<images//per12.png, id=375, 1484.54625pt x 1153.30875pt>
+<images//per12.png, id=378, 1484.54625pt x 1153.30875pt>
 File: images//per12.png Graphic file (type png)
 <use images//per12.png>
 Package pdftex.def Info: images//per12.png  used on input line 61.
 (pdftex.def)             Requested size: 212.47618pt x 165.05212pt.
-<images//sym12.png, id=376, 1484.54625pt x 1153.30875pt>
+<images//sym12.png, id=379, 1484.54625pt x 1153.30875pt>
 File: images//sym12.png Graphic file (type png)
 <use images//sym12.png>
 Package pdftex.def Info: images//sym12.png  used on input line 66.
 (pdftex.def)             Requested size: 212.47618pt x 165.05212pt.
 
 
-LaTeX Warning: Citation `mittal_flow_2003' on page 11 undefined on input line 7
+LaTeX Warning: Citation `mittal_flow_2003' on page 12 undefined on input line 7
 3.
 
 
@@ -1360,18 +1355,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--74
 
  []
 
-[11
+[12
 
- <./images/dragvalnn-eps-converted-to.pdf>] [12 <./images//draglua.png> <./imag
-es//liftlua.png>] [13 <./images//domain-eps-converted-to.pdf> <./images//per.pn
-g> <./images//sym.png (PNG copy)>] [14 <./images//polar-eps-converted-to.pdf>] 
-[15 <./images//per12.png (PNG copy)> <./images//sym12.png (PNG copy)>]))
+ <./images/dragvalnn-eps-converted-to.pdf>] [13 <./images//draglua.png> <./imag
+es//liftlua.png>] [14 <./images//domain-eps-converted-to.pdf> <./images//per.pn
+g> <./images//sym.png (PNG copy)>] [15 <./images//polar-eps-converted-to.pdf>] 
+[16 <./images//per12.png (PNG copy)> <./images//sym12.png (PNG copy)>]))
 \openout2 = `4_Results.aux'.
 
 
 (./4_Results.tex
 CHAPTER 4.
-(./4.1_Circle_results.tex [16
+(./4.1_Circle_results.tex [17
 
 
 
@@ -1389,7 +1384,7 @@ Package epstopdf Info: Source file: <images/circle/timens.eps>
 onverted-to.pdf images/circle/timens.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
-<images/circle/timens-eps-converted-to.pdf, id=457, 447.6725pt x 228.855pt>
+<images/circle/timens-eps-converted-to.pdf, id=460, 447.6725pt x 228.855pt>
 File: images/circle/timens-eps-converted-to.pdf Graphic file (type pdf)
 <use images/circle/timens-eps-converted-to.pdf>
 Package pdftex.def Info: images/circle/timens-eps-converted-to.pdf  used on inp
@@ -1405,7 +1400,7 @@ Package epstopdf Info: Source file: <images/circle/times.eps>
 nverted-to.pdf images/circle/times.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<images/circle/times-eps-converted-to.pdf, id=458, 439.6425pt x 228.855pt>
+<images/circle/times-eps-converted-to.pdf, id=461, 439.6425pt x 228.855pt>
 File: images/circle/times-eps-converted-to.pdf Graphic file (type pdf)
 <use images/circle/times-eps-converted-to.pdf>
 Package pdftex.def Info: images/circle/times-eps-converted-to.pdf  used on inpu
@@ -1422,7 +1417,7 @@ Package epstopdf Info: Source file: <images/circle/ar1drag.eps>
 converted-to.pdf images/circle/ar1drag.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<images/circle/ar1drag-eps-converted-to.pdf, id=459, 1244.65pt x 747.79375pt>
+<images/circle/ar1drag-eps-converted-to.pdf, id=462, 1244.65pt x 747.79375pt>
 File: images/circle/ar1drag-eps-converted-to.pdf Graphic file (type pdf)
 <use images/circle/ar1drag-eps-converted-to.pdf>
 Package pdftex.def Info: images/circle/ar1drag-eps-converted-to.pdf  used on in
@@ -1439,172 +1434,172 @@ Package epstopdf Info: Source file: <images/circle/ar1lift.eps>
 converted-to.pdf images/circle/ar1lift.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<images/circle/ar1lift-eps-converted-to.pdf, id=460, 1244.65pt x 747.79375pt>
+<images/circle/ar1lift-eps-converted-to.pdf, id=463, 1244.65pt x 747.79375pt>
 File: images/circle/ar1lift-eps-converted-to.pdf Graphic file (type pdf)
 <use images/circle/ar1lift-eps-converted-to.pdf>
 Package pdftex.def Info: images/circle/ar1lift-eps-converted-to.pdf  used on in
 put line 31.
 (pdftex.def)             Requested size: 212.47618pt x 127.64813pt.
-<images/circle/ps0fsinf.png, id=461, 1064.97874pt x 1064.97874pt>
+<images/circle/ps0fsinf.png, id=464, 1064.97874pt x 1064.97874pt>
 File: images/circle/ps0fsinf.png Graphic file (type png)
 <use images/circle/ps0fsinf.png>
 Package pdftex.def Info: images/circle/ps0fsinf.png  used on input line 42.
 (pdftex.def)             Requested size: 108.405pt x 108.40538pt.
-<images/circle/ps0fs100.png, id=462, 136.25906pt x 141.52875pt>
+<images/circle/ps0fs100.png, id=465, 136.25906pt x 141.52875pt>
 File: images/circle/ps0fs100.png Graphic file (type png)
 <use images/circle/ps0fs100.png>
 Package pdftex.def Info: images/circle/ps0fs100.png  used on input line 49.
 (pdftex.def)             Requested size: 108.405pt x 112.59688pt.
-<images/circle/ps0fs10.png, id=463, 146.04562pt x 141.52875pt>
+<images/circle/ps0fs10.png, id=466, 146.04562pt x 141.52875pt>
 File: images/circle/ps0fs10.png Graphic file (type png)
 <use images/circle/ps0fs10.png>
 Package pdftex.def Info: images/circle/ps0fs10.png  used on input line 56.
 (pdftex.def)             Requested size: 108.405pt x 105.05571pt.
-<images/circle/ps1fsinf.png, id=464, 1064.97874pt x 1064.97874pt>
+<images/circle/ps1fsinf.png, id=467, 1064.97874pt x 1064.97874pt>
 File: images/circle/ps1fsinf.png Graphic file (type png)
 <use images/circle/ps1fsinf.png>
 Package pdftex.def Info: images/circle/ps1fsinf.png  used on input line 63.
 (pdftex.def)             Requested size: 108.405pt x 108.40538pt.
-<images/circle/ps1fs100.png, id=465, 154.32657pt x 143.03438pt>
+<images/circle/ps1fs100.png, id=468, 154.32657pt x 143.03438pt>
 File: images/circle/ps1fs100.png Graphic file (type png)
 <use images/circle/ps1fs100.png>
 Package pdftex.def Info: images/circle/ps1fs100.png  used on input line 70.
 (pdftex.def)             Requested size: 108.405pt x 100.47475pt.
-<images/circle/ps1fs10.png, id=466, 134.75343pt x 141.52875pt>
+<images/circle/ps1fs10.png, id=469, 134.75343pt x 141.52875pt>
 File: images/circle/ps1fs10.png Graphic file (type png)
 <use images/circle/ps1fs10.png>
 Package pdftex.def Info: images/circle/ps1fs10.png  used on input line 77.
 (pdftex.def)             Requested size: 108.405pt x 113.85805pt.
-<images/circle/ps0fs1.png, id=467, 147.55125pt x 140.77594pt>
+<images/circle/ps0fs1.png, id=470, 147.55125pt x 140.77594pt>
 File: images/circle/ps0fs1.png Graphic file (type png)
 <use images/circle/ps0fs1.png>
 Package pdftex.def Info: images/circle/ps0fs1.png  used on input line 84.
 (pdftex.def)             Requested size: 108.405pt x 103.4293pt.
-<images/circle/ps0fs0p1.png, id=468, 174.6525pt x 166.37157pt>
+<images/circle/ps0fs0p1.png, id=471, 174.6525pt x 166.37157pt>
 File: images/circle/ps0fs0p1.png Graphic file (type png)
 <use images/circle/ps0fs0p1.png>
 Package pdftex.def Info: images/circle/ps0fs0p1.png  used on input line 91.
 (pdftex.def)             Requested size: 108.405pt x 103.26607pt.
-<images/circle/ps0fs0p01.png, id=469, 167.87718pt x 161.10187pt>
+<images/circle/ps0fs0p01.png, id=472, 167.87718pt x 161.10187pt>
 File: images/circle/ps0fs0p01.png Graphic file (type png)
 <use images/circle/ps0fs0p01.png>
 Package pdftex.def Info: images/circle/ps0fs0p01.png  used on input line 98.
 (pdftex.def)             Requested size: 108.405pt x 104.02913pt.
-<images/circle/ps1fs1.png, id=470, 139.27031pt x 140.77594pt>
+<images/circle/ps1fs1.png, id=473, 139.27031pt x 140.77594pt>
 File: images/circle/ps1fs1.png Graphic file (type png)
 <use images/circle/ps1fs1.png>
 Package pdftex.def Info: images/circle/ps1fs1.png  used on input line 105.
 (pdftex.def)             Requested size: 108.405pt x 109.57922pt.
-<images/circle/ps1fs0p1.png, id=471, 167.12437pt x 159.59625pt>
+<images/circle/ps1fs0p1.png, id=474, 167.12437pt x 159.59625pt>
 File: images/circle/ps1fs0p1.png Graphic file (type png)
 <use images/circle/ps1fs0p1.png>
 Package pdftex.def Info: images/circle/ps1fs0p1.png  used on input line 112.
 (pdftex.def)             Requested size: 108.405pt x 103.52444pt.
-<images/circle/ps1fs0p01.png, id=472, 151.3153pt x 154.32657pt>
+<images/circle/ps1fs0p01.png, id=475, 151.3153pt x 154.32657pt>
 File: images/circle/ps1fs0p01.png Graphic file (type png)
 <use images/circle/ps1fs0p01.png>
 Package pdftex.def Info: images/circle/ps1fs0p01.png  used on input line 119.
 (pdftex.def)             Requested size: 108.405pt x 110.564pt.
-<images/circle/p_scale.png, id=473, 531.9875pt x 246.9225pt>
+<images/circle/p_scale.png, id=476, 531.9875pt x 246.9225pt>
 File: images/circle/p_scale.png Graphic file (type png)
 <use images/circle/p_scale.png>
 Package pdftex.def Info: images/circle/p_scale.png  used on input line 126.
 (pdftex.def)             Requested size: 108.405pt x 50.31424pt.
- [17 <./images/circle/timens-eps-converted-to.pdf>] [18 <./images/circle/times-
+ [18 <./images/circle/timens-eps-converted-to.pdf>] [19 <./images/circle/times-
 eps-converted-to.pdf> <./images/circle/ar1drag-eps-converted-to.pdf> <./images/
-circle/ar1lift-eps-converted-to.pdf>] [19 <./images/circle/ps0fsinf.png> <./ima
+circle/ar1lift-eps-converted-to.pdf>] [20 <./images/circle/ps0fsinf.png> <./ima
 ges/circle/ps0fs100.png> <./images/circle/ps0fs10.png> <./images/circle/ps1fsin
 f.png> <./images/circle/ps1fs100.png> <./images/circle/ps1fs10.png> <./images/c
 ircle/ps0fs1.png> <./images/circle/ps0fs0p1.png> <./images/circle/ps0fs0p01.png
 > <./images/circle/ps1fs1.png> <./images/circle/ps1fs0p1.png> <./images/circle/
 ps1fs0p01.png> <./images/circle/p_scale.png>]
-[20
+[21
 
 ]
-<images/circle/av0fsinf.png, id=534, 1710.39pt x 1142.2675pt>
+<images/circle/av0fsinf.png, id=538, 1710.39pt x 1142.2675pt>
 File: images/circle/av0fsinf.png Graphic file (type png)
 <use images/circle/av0fsinf.png>
 Package pdftex.def Info: images/circle/av0fsinf.png  used on input line 146.
 (pdftex.def)             Requested size: 138.76158pt x 92.65562pt.
-<images/circle/av0fr10.png, id=535, 179.92218pt x 122.70844pt>
+<images/circle/av0fr10.png, id=539, 179.92218pt x 122.70844pt>
 File: images/circle/av0fr10.png Graphic file (type png)
 <use images/circle/av0fr10.png>
 Package pdftex.def Info: images/circle/av0fr10.png  used on input line 153.
 (pdftex.def)             Requested size: 138.76158pt x 94.64305pt.
-<images/circle/av0fr3.png, id=536, 182.93344pt x 122.70844pt>
+<images/circle/av0fr3.png, id=540, 182.93344pt x 122.70844pt>
 File: images/circle/av0fr3.png Graphic file (type png)
 <use images/circle/av0fr3.png>
 Package pdftex.def Info: images/circle/av0fr3.png  used on input line 160.
 (pdftex.def)             Requested size: 138.76158pt x 93.08336pt.
-<images/circle/av1fsinf.png, id=537, 1714.405pt x 1149.29375pt>
+<images/circle/av1fsinf.png, id=541, 1714.405pt x 1149.29375pt>
 File: images/circle/av1fsinf.png Graphic file (type png)
 <use images/circle/av1fsinf.png>
 Package pdftex.def Info: images/circle/av1fsinf.png  used on input line 167.
 (pdftex.def)             Requested size: 138.76158pt x 93.01512pt.
-<images/circle/av1fr10.png, id=538, 188.95593pt x 129.48375pt>
+<images/circle/av1fr10.png, id=542, 188.95593pt x 129.48375pt>
 File: images/circle/av1fr10.png Graphic file (type png)
 <use images/circle/av1fr10.png>
 Package pdftex.def Info: images/circle/av1fr10.png  used on input line 174.
 (pdftex.def)             Requested size: 138.76158pt x 95.0874pt.
-<images/circle/av1fr3.png, id=539, 191.21437pt x 127.22531pt>
+<images/circle/av1fr3.png, id=543, 191.21437pt x 127.22531pt>
 File: images/circle/av1fr3.png Graphic file (type png)
 <use images/circle/av1fr3.png>
 Package pdftex.def Info: images/circle/av1fr3.png  used on input line 181.
 (pdftex.def)             Requested size: 138.76158pt x 92.33012pt.
-<images/circle/av0fr1.png, id=540, 180.675pt x 121.95563pt>
+<images/circle/av0fr1.png, id=544, 180.675pt x 121.95563pt>
 File: images/circle/av0fr1.png Graphic file (type png)
 <use images/circle/av0fr1.png>
 Package pdftex.def Info: images/circle/av0fr1.png  used on input line 188.
 (pdftex.def)             Requested size: 138.76158pt x 93.66418pt.
-<images/circle/av0fr0p3.png, id=541, 185.19188pt x 125.71968pt>
+<images/circle/av0fr0p3.png, id=545, 185.19188pt x 125.71968pt>
 File: images/circle/av0fr0p3.png Graphic file (type png)
 <use images/circle/av0fr0p3.png>
 Package pdftex.def Info: images/circle/av0fr0p3.png  used on input line 195.
 (pdftex.def)             Requested size: 138.76158pt x 94.20126pt.
-<images/circle/av0fr0p1.png, id=542, 191.9672pt x 127.22531pt>
+<images/circle/av0fr0p1.png, id=546, 191.9672pt x 127.22531pt>
 File: images/circle/av0fr0p1.png Graphic file (type png)
 <use images/circle/av0fr0p1.png>
 Package pdftex.def Info: images/circle/av0fr0p1.png  used on input line 202.
 (pdftex.def)             Requested size: 138.76158pt x 91.96904pt.
-<images/circle/av1fr1.png, id=543, 188.20313pt x 127.22531pt>
+<images/circle/av1fr1.png, id=547, 188.20313pt x 127.22531pt>
 File: images/circle/av1fr1.png Graphic file (type png)
 <use images/circle/av1fr1.png>
 Package pdftex.def Info: images/circle/av1fr1.png  used on input line 209.
 (pdftex.def)             Requested size: 138.76158pt x 93.8094pt.
-<images/circle/av1fr0p3.png, id=544, 198.7425pt x 133.24782pt>
+<images/circle/av1fr0p3.png, id=548, 198.7425pt x 133.24782pt>
 File: images/circle/av1fr0p3.png Graphic file (type png)
 <use images/circle/av1fr0p3.png>
 Package pdftex.def Info: images/circle/av1fr0p3.png  used on input line 216.
 (pdftex.def)             Requested size: 138.76158pt x 93.03494pt.
-<images/circle/av1fr0p1.png, id=545, 195.73125pt x 130.98938pt>
+<images/circle/av1fr0p1.png, id=549, 195.73125pt x 130.98938pt>
 File: images/circle/av1fr0p1.png Graphic file (type png)
 <use images/circle/av1fr0p1.png>
 Package pdftex.def Info: images/circle/av1fr0p1.png  used on input line 223.
 (pdftex.def)             Requested size: 138.76158pt x 92.86917pt.
-<images/circle/scale.png, id=546, 320.69812pt x 51.19125pt>
+<images/circle/scale.png, id=550, 320.69812pt x 51.19125pt>
 File: images/circle/scale.png Graphic file (type png)
 <use images/circle/scale.png>
 Package pdftex.def Info: images/circle/scale.png  used on input line 230.
 (pdftex.def)             Requested size: 138.76158pt x 22.15005pt.
-<images/circle/circleschlerien.png, id=547, 661.2705pt x 621.40155pt>
+<images/circle/circleschlerien.png, id=551, 661.2705pt x 621.40155pt>
 File: images/circle/circleschlerien.png Graphic file (type png)
 <use images/circle/circleschlerien.png>
 Package pdftex.def Info: images/circle/circleschlerien.png  used on input line 
 240.
 (pdftex.def)             Requested size: 433.62003pt x 407.48087pt.
-<images/circle/circleschlerien2.png, id=548, 656.6934pt x 371.4678pt>
+<images/circle/circleschlerien2.png, id=552, 656.6934pt x 371.4678pt>
 File: images/circle/circleschlerien2.png Graphic file (type png)
 <use images/circle/circleschlerien2.png>
 Package pdftex.def Info: images/circle/circleschlerien2.png  used on input line
  247.
 (pdftex.def)             Requested size: 433.62003pt x 245.28287pt.
- [21] [22 <./images/circle/av0fsinf.png> <./images/circle/av0fr10.png> <./image
+ [22] [23 <./images/circle/av0fsinf.png> <./images/circle/av0fr10.png> <./image
 s/circle/av0fr3.png> <./images/circle/av1fsinf.png> <./images/circle/av1fr10.pn
 g> <./images/circle/av1fr3.png> <./images/circle/av0fr1.png> <./images/circle/a
 v0fr0p3.png> <./images/circle/av0fr0p1.png> <./images/circle/av1fr1.png> <./ima
 ges/circle/av1fr0p3.png> <./images/circle/av1fr0p1.png> <./images/circle/scale.
-png>] [23 <./images/circle/circleschlerien.png>] [24 <./images/circle/circlesch
-lerien2.png>]) (./4.2_Spinning_ellipse.tex [25
+png>] [24 <./images/circle/circleschlerien.png>] [25 <./images/circle/circlesch
+lerien2.png>]) (./4.2_Spinning_ellipse.tex [26
 
 ]
 Package epstopdf Info: Source file: <images/spinning_ellipse/mvmean1p5.eps>
@@ -1618,7 +1613,7 @@ erted-to.pdf>
 mean1p5-eps-converted-to.pdf images/spinning_ellipse/mvmean1p5.eps>
 (epstopdf)             \includegraphics on input line 9.
 Package epstopdf Info: Output file is already uptodate.
-<images/spinning_ellipse/mvmean1p5-eps-converted-to.pdf, id=594, 472.76625pt x 
+<images/spinning_ellipse/mvmean1p5-eps-converted-to.pdf, id=597, 472.76625pt x 
 272.01625pt>
 File: images/spinning_ellipse/mvmean1p5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1637,7 +1632,7 @@ erted-to.pdf>
 mean0p5-eps-converted-to.pdf images/spinning_ellipse/mvmean0p5.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
-<images/spinning_ellipse/mvmean0p5-eps-converted-to.pdf, id=595, 472.76625pt x 
+<images/spinning_ellipse/mvmean0p5-eps-converted-to.pdf, id=598, 472.76625pt x 
 272.01625pt>
 File: images/spinning_ellipse/mvmean0p5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1656,7 +1651,7 @@ erted-to.pdf>
 drag1p5-eps-converted-to.pdf images/spinning_ellipse/padrag1p5.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<images/spinning_ellipse/padrag1p5-eps-converted-to.pdf, id=596, 1526.70375pt x
+<images/spinning_ellipse/padrag1p5-eps-converted-to.pdf, id=599, 1526.70375pt x
  817.0525pt>
 File: images/spinning_ellipse/padrag1p5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1675,7 +1670,7 @@ erted-to.pdf>
 lift1p5-eps-converted-to.pdf images/spinning_ellipse/palift1p5.eps>
 (epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-<images/spinning_ellipse/palift1p5-eps-converted-to.pdf, id=597, 1526.70375pt x
+<images/spinning_ellipse/palift1p5-eps-converted-to.pdf, id=600, 1526.70375pt x
  817.0525pt>
 File: images/spinning_ellipse/palift1p5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1694,7 +1689,7 @@ erted-to.pdf>
 drag0p5-eps-converted-to.pdf images/spinning_ellipse/padrag0p5.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<images/spinning_ellipse/padrag0p5-eps-converted-to.pdf, id=598, 1526.70375pt x
+<images/spinning_ellipse/padrag0p5-eps-converted-to.pdf, id=601, 1526.70375pt x
  817.0525pt>
 File: images/spinning_ellipse/padrag0p5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1713,7 +1708,7 @@ erted-to.pdf>
 lift0p5-eps-converted-to.pdf images/spinning_ellipse/palift0p5.eps>
 (epstopdf)             \includegraphics on input line 49.
 Package epstopdf Info: Output file is already uptodate.
-<images/spinning_ellipse/palift0p5-eps-converted-to.pdf, id=599, 1526.70375pt x
+<images/spinning_ellipse/palift0p5-eps-converted-to.pdf, id=602, 1526.70375pt x
  817.0525pt>
 File: images/spinning_ellipse/palift0p5-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1721,79 +1716,79 @@ File: images/spinning_ellipse/palift0p5-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: images/spinning_ellipse/palift0p5-eps-converted-to.pdf
   used on input line 49.
 (pdftex.def)             Requested size: 212.47618pt x 113.70087pt.
-<images/spinning_ellipse/par1p5fsinf.png, id=600, 1064.97874pt x 1064.97874pt>
+<images/spinning_ellipse/par1p5fsinf.png, id=603, 1064.97874pt x 1064.97874pt>
 File: images/spinning_ellipse/par1p5fsinf.png Graphic file (type png)
 <use images/spinning_ellipse/par1p5fsinf.png>
 Package pdftex.def Info: images/spinning_ellipse/par1p5fsinf.png  used on input
  line 122.
 (pdftex.def)             Requested size: 108.405pt x 108.40538pt.
-<images/spinning_ellipse/par1p5fs100.png, id=601, 166.37157pt x 176.15813pt>
+<images/spinning_ellipse/par1p5fs100.png, id=604, 166.37157pt x 176.15813pt>
 File: images/spinning_ellipse/par1p5fs100.png Graphic file (type png)
 <use images/spinning_ellipse/par1p5fs100.png>
 Package pdftex.def Info: images/spinning_ellipse/par1p5fs100.png  used on input
  line 129.
 (pdftex.def)             Requested size: 108.405pt x 114.78365pt.
-<images/spinning_ellipse/par1p5fs10.png, id=602, 166.37157pt x 162.6075pt>
+<images/spinning_ellipse/par1p5fs10.png, id=605, 166.37157pt x 162.6075pt>
 File: images/spinning_ellipse/par1p5fs10.png Graphic file (type png)
 <use images/spinning_ellipse/par1p5fs10.png>
 Package pdftex.def Info: images/spinning_ellipse/par1p5fs10.png  used on input 
 line 136.
 (pdftex.def)             Requested size: 108.405pt x 105.95415pt.
-<images/spinning_ellipse/par1p5fs1.png, id=603, 174.6525pt x 170.88844pt>
+<images/spinning_ellipse/par1p5fs1.png, id=606, 174.6525pt x 170.88844pt>
 File: images/spinning_ellipse/par1p5fs1.png Graphic file (type png)
 <use images/spinning_ellipse/par1p5fs1.png>
 Package pdftex.def Info: images/spinning_ellipse/par1p5fs1.png  used on input l
 ine 143.
 (pdftex.def)             Requested size: 108.405pt x 106.06967pt.
-<images/spinning_ellipse/par1p5fs0p1.png, id=604, 158.84344pt x 161.10187pt>
+<images/spinning_ellipse/par1p5fs0p1.png, id=607, 158.84344pt x 161.10187pt>
 File: images/spinning_ellipse/par1p5fs0p1.png Graphic file (type png)
 <use images/spinning_ellipse/par1p5fs0p1.png>
 Package pdftex.def Info: images/spinning_ellipse/par1p5fs0p1.png  used on input
  line 150.
 (pdftex.def)             Requested size: 108.405pt x 109.95096pt.
-<images/spinning_ellipse/par1p5fs0p01.png, id=605, 158.84344pt x 160.34906pt>
+<images/spinning_ellipse/par1p5fs0p01.png, id=608, 158.84344pt x 160.34906pt>
 File: images/spinning_ellipse/par1p5fs0p01.png Graphic file (type png)
 <use images/spinning_ellipse/par1p5fs0p01.png>
 Package pdftex.def Info: images/spinning_ellipse/par1p5fs0p01.png  used on inpu
 t line 157.
 (pdftex.def)             Requested size: 108.405pt x 109.43718pt.
-<images/spinning_ellipse/p_scale.png, id=606, 531.9875pt x 246.9225pt>
+<images/spinning_ellipse/p_scale.png, id=609, 531.9875pt x 246.9225pt>
 File: images/spinning_ellipse/p_scale.png Graphic file (type png)
 <use images/spinning_ellipse/p_scale.png>
 Package pdftex.def Info: images/spinning_ellipse/p_scale.png  used on input lin
 e 164.
 (pdftex.def)             Requested size: 108.405pt x 50.31424pt.
-<images/spinning_ellipse/par0p5fsinf.png, id=607, 1064.97874pt x 1064.97874pt>
+<images/spinning_ellipse/par0p5fsinf.png, id=610, 1064.97874pt x 1064.97874pt>
 File: images/spinning_ellipse/par0p5fsinf.png Graphic file (type png)
 <use images/spinning_ellipse/par0p5fsinf.png>
 Package pdftex.def Info: images/spinning_ellipse/par0p5fsinf.png  used on input
  line 176.
 (pdftex.def)             Requested size: 108.405pt x 108.40538pt.
-<images/spinning_ellipse/par0p5fs100.png, id=608, 139.27031pt x 141.52875pt>
+<images/spinning_ellipse/par0p5fs100.png, id=611, 139.27031pt x 141.52875pt>
 File: images/spinning_ellipse/par0p5fs100.png Graphic file (type png)
 <use images/spinning_ellipse/par0p5fs100.png>
 Package pdftex.def Info: images/spinning_ellipse/par0p5fs100.png  used on input
  line 183.
 (pdftex.def)             Requested size: 108.405pt x 110.16522pt.
-<images/spinning_ellipse/par0p5fs10.png, id=609, 138.5175pt x 142.28156pt>
+<images/spinning_ellipse/par0p5fs10.png, id=612, 138.5175pt x 142.28156pt>
 File: images/spinning_ellipse/par0p5fs10.png Graphic file (type png)
 <use images/spinning_ellipse/par0p5fs10.png>
 Package pdftex.def Info: images/spinning_ellipse/par0p5fs10.png  used on input 
 line 190.
 (pdftex.def)             Requested size: 108.405pt x 111.3504pt.
-<images/spinning_ellipse/par0p5fs1.png, id=610, 140.02313pt x 141.52875pt>
+<images/spinning_ellipse/par0p5fs1.png, id=613, 140.02313pt x 141.52875pt>
 File: images/spinning_ellipse/par0p5fs1.png Graphic file (type png)
 <use images/spinning_ellipse/par0p5fs1.png>
 Package pdftex.def Info: images/spinning_ellipse/par0p5fs1.png  used on input l
 ine 197.
 (pdftex.def)             Requested size: 108.405pt x 109.57565pt.
-<images/spinning_ellipse/par0p5fs0p1.png, id=611, 143.03438pt x 142.28156pt>
+<images/spinning_ellipse/par0p5fs0p1.png, id=614, 143.03438pt x 142.28156pt>
 File: images/spinning_ellipse/par0p5fs0p1.png Graphic file (type png)
 <use images/spinning_ellipse/par0p5fs0p1.png>
 Package pdftex.def Info: images/spinning_ellipse/par0p5fs0p1.png  used on input
  line 204.
 (pdftex.def)             Requested size: 108.405pt x 107.8355pt.
-<images/spinning_ellipse/par0p5fs0p01.png, id=612, 140.02313pt x 142.28156pt>
+<images/spinning_ellipse/par0p5fs0p01.png, id=615, 140.02313pt x 142.28156pt>
 File: images/spinning_ellipse/par0p5fs0p01.png Graphic file (type png)
 <use images/spinning_ellipse/par0p5fs0p01.png>
 Package pdftex.def Info: images/spinning_ellipse/par0p5fs0p01.png  used on inpu
@@ -1804,91 +1799,91 @@ File: images/spinning_ellipse/p_scale.png Graphic file (type png)
 Package pdftex.def Info: images/spinning_ellipse/p_scale.png  used on input lin
 e 218.
 (pdftex.def)             Requested size: 108.405pt x 50.31424pt.
- [26 <./images/spinning_ellipse/mvmean1p5-eps-converted-to.pdf>] [27 <./images/
+ [27 <./images/spinning_ellipse/mvmean1p5-eps-converted-to.pdf>] [28 <./images/
 spinning_ellipse/mvmean0p5-eps-converted-to.pdf> <./images/spinning_ellipse/pad
 rag1p5-eps-converted-to.pdf> <./images/spinning_ellipse/palift1p5-eps-converted
 -to.pdf> <./images/spinning_ellipse/padrag0p5-eps-converted-to.pdf> <./images/s
-pinning_ellipse/palift0p5-eps-converted-to.pdf>] [28] [29 <./images/spinning_el
+pinning_ellipse/palift0p5-eps-converted-to.pdf>] [29] [30 <./images/spinning_el
 lipse/par1p5fsinf.png> <./images/spinning_ellipse/par1p5fs100.png> <./images/sp
 inning_ellipse/par1p5fs10.png> <./images/spinning_ellipse/par1p5fs1.png> <./ima
 ges/spinning_ellipse/par1p5fs0p1.png> <./images/spinning_ellipse/par1p5fs0p01.p
-ng> <./images/spinning_ellipse/p_scale.png>] [30 <./images/spinning_ellipse/par
+ng> <./images/spinning_ellipse/p_scale.png>] [31 <./images/spinning_ellipse/par
 0p5fsinf.png> <./images/spinning_ellipse/par0p5fs100.png> <./images/spinning_el
 lipse/par0p5fs10.png> <./images/spinning_ellipse/par0p5fs1.png> <./images/spinn
 ing_ellipse/par0p5fs0p1.png> <./images/spinning_ellipse/par0p5fs0p01.png>]
-<images/spinning_ellipse/ar1p5fsinf.png, id=683, 1710.39pt x 1142.2675pt>
+<images/spinning_ellipse/ar1p5fsinf.png, id=687, 1710.39pt x 1142.2675pt>
 File: images/spinning_ellipse/ar1p5fsinf.png Graphic file (type png)
 <use images/spinning_ellipse/ar1p5fsinf.png>
 Package pdftex.def Info: images/spinning_ellipse/ar1p5fsinf.png  used on input 
 line 232.
 (pdftex.def)             Requested size: 138.76158pt x 92.65562pt.
-<images/spinning_ellipse/ar1p5fr10.png, id=684, 186.6975pt x 124.96687pt>
+<images/spinning_ellipse/ar1p5fr10.png, id=688, 186.6975pt x 124.96687pt>
 File: images/spinning_ellipse/ar1p5fr10.png Graphic file (type png)
 <use images/spinning_ellipse/ar1p5fr10.png>
 Package pdftex.def Info: images/spinning_ellipse/ar1p5fr10.png  used on input l
 ine 239.
 (pdftex.def)             Requested size: 138.76158pt x 92.884pt.
-<images/spinning_ellipse/ar1p5fr3.png, id=685, 182.93344pt x 124.21407pt>
+<images/spinning_ellipse/ar1p5fr3.png, id=689, 182.93344pt x 124.21407pt>
 File: images/spinning_ellipse/ar1p5fr3.png Graphic file (type png)
 <use images/spinning_ellipse/ar1p5fr3.png>
 Package pdftex.def Info: images/spinning_ellipse/ar1p5fr3.png  used on input li
 ne 246.
 (pdftex.def)             Requested size: 138.76158pt x 94.2255pt.
-<images/spinning_ellipse/ar1p5fr1.png, id=686, 185.94469pt x 124.96687pt>
+<images/spinning_ellipse/ar1p5fr1.png, id=690, 185.94469pt x 124.96687pt>
 File: images/spinning_ellipse/ar1p5fr1.png Graphic file (type png)
 <use images/spinning_ellipse/ar1p5fr1.png>
 Package pdftex.def Info: images/spinning_ellipse/ar1p5fr1.png  used on input li
 ne 253.
 (pdftex.def)             Requested size: 138.76158pt x 93.25964pt.
-<images/spinning_ellipse/ar1p5fr0p3.png, id=687, 186.6975pt x 124.96687pt>
+<images/spinning_ellipse/ar1p5fr0p3.png, id=691, 186.6975pt x 124.96687pt>
 File: images/spinning_ellipse/ar1p5fr0p3.png Graphic file (type png)
 <use images/spinning_ellipse/ar1p5fr0p3.png>
 Package pdftex.def Info: images/spinning_ellipse/ar1p5fr0p3.png  used on input 
 line 260.
 (pdftex.def)             Requested size: 138.76158pt x 92.884pt.
-<images/spinning_ellipse/ar1p5fr0p1.png, id=688, 186.6975pt x 125.71968pt>
+<images/spinning_ellipse/ar1p5fr0p1.png, id=692, 186.6975pt x 125.71968pt>
 File: images/spinning_ellipse/ar1p5fr0p1.png Graphic file (type png)
 <use images/spinning_ellipse/ar1p5fr0p1.png>
 Package pdftex.def Info: images/spinning_ellipse/ar1p5fr0p1.png  used on input 
 line 267.
 (pdftex.def)             Requested size: 138.76158pt x 93.44353pt.
-<images/spinning_ellipse/scale1.png, id=689, 216.81pt x 33.87656pt>
+<images/spinning_ellipse/scale1.png, id=693, 216.81pt x 33.87656pt>
 File: images/spinning_ellipse/scale1.png Graphic file (type png)
 <use images/spinning_ellipse/scale1.png>
 Package pdftex.def Info: images/spinning_ellipse/scale1.png  used on input line
  274.
 (pdftex.def)             Requested size: 138.76158pt x 21.68246pt.
-<images/spinning_ellipse/ar0p5fsinf.png, id=690, 1712.3975pt x 1144.275pt>
+<images/spinning_ellipse/ar0p5fsinf.png, id=694, 1712.3975pt x 1144.275pt>
 File: images/spinning_ellipse/ar0p5fsinf.png Graphic file (type png)
 <use images/spinning_ellipse/ar0p5fsinf.png>
 Package pdftex.def Info: images/spinning_ellipse/ar0p5fsinf.png  used on input 
 line 286.
 (pdftex.def)             Requested size: 138.76158pt x 92.7137pt.
-<images/spinning_ellipse/ar0p5fr10.png, id=691, 192.72pt x 127.97812pt>
+<images/spinning_ellipse/ar0p5fr10.png, id=695, 192.72pt x 127.97812pt>
 File: images/spinning_ellipse/ar0p5fr10.png Graphic file (type png)
 <use images/spinning_ellipse/ar0p5fr10.png>
 Package pdftex.def Info: images/spinning_ellipse/ar0p5fr10.png  used on input l
 ine 293.
 (pdftex.def)             Requested size: 138.76158pt x 92.14612pt.
-<images/spinning_ellipse/ar0p5fr3.png, id=692, 191.21437pt x 132.495pt>
+<images/spinning_ellipse/ar0p5fr3.png, id=696, 191.21437pt x 132.495pt>
 File: images/spinning_ellipse/ar0p5fr3.png Graphic file (type png)
 <use images/spinning_ellipse/ar0p5fr3.png>
 Package pdftex.def Info: images/spinning_ellipse/ar0p5fr3.png  used on input li
 ne 300.
 (pdftex.def)             Requested size: 138.76158pt x 96.15445pt.
-<images/spinning_ellipse/ar0p5fr1.png, id=693, 191.21437pt x 130.98938pt>
+<images/spinning_ellipse/ar0p5fr1.png, id=697, 191.21437pt x 130.98938pt>
 File: images/spinning_ellipse/ar0p5fr1.png Graphic file (type png)
 <use images/spinning_ellipse/ar0p5fr1.png>
 Package pdftex.def Info: images/spinning_ellipse/ar0p5fr1.png  used on input li
 ne 307.
 (pdftex.def)             Requested size: 138.76158pt x 95.06178pt.
-<images/spinning_ellipse/ar0p5fr0p3.png, id=694, 191.21437pt x 131.74219pt>
+<images/spinning_ellipse/ar0p5fr0p3.png, id=698, 191.21437pt x 131.74219pt>
 File: images/spinning_ellipse/ar0p5fr0p3.png Graphic file (type png)
 <use images/spinning_ellipse/ar0p5fr0p3.png>
 Package pdftex.def Info: images/spinning_ellipse/ar0p5fr0p3.png  used on input 
 line 314.
 (pdftex.def)             Requested size: 138.76158pt x 95.60812pt.
-<images/spinning_ellipse/ar0p5fr0p1.png, id=695, 191.21437pt x 131.74219pt>
+<images/spinning_ellipse/ar0p5fr0p1.png, id=699, 191.21437pt x 131.74219pt>
 File: images/spinning_ellipse/ar0p5fr0p1.png Graphic file (type png)
 <use images/spinning_ellipse/ar0p5fr0p1.png>
 Package pdftex.def Info: images/spinning_ellipse/ar0p5fr0p1.png  used on input 
@@ -1899,29 +1894,29 @@ File: images/spinning_ellipse/scale1.png Graphic file (type png)
 Package pdftex.def Info: images/spinning_ellipse/scale1.png  used on input line
  328.
 (pdftex.def)             Requested size: 138.76158pt x 21.68246pt.
-<images/spinning_ellipse/schlerienar1p5.png, id=696, 669.9429pt x 366.168pt>
+<images/spinning_ellipse/schlerienar1p5.png, id=700, 669.9429pt x 366.168pt>
 File: images/spinning_ellipse/schlerienar1p5.png Graphic file (type png)
 <use images/spinning_ellipse/schlerienar1p5.png>
 Package pdftex.def Info: images/spinning_ellipse/schlerienar1p5.png  used on in
 put line 337.
 (pdftex.def)             Requested size: 433.62003pt x 237.00067pt.
-<images/spinning_ellipse/schlerienar0p5.png, id=697, 667.41345pt x 370.14285pt>
+<images/spinning_ellipse/schlerienar0p5.png, id=701, 667.41345pt x 370.14285pt>
 
 File: images/spinning_ellipse/schlerienar0p5.png Graphic file (type png)
 <use images/spinning_ellipse/schlerienar0p5.png>
 Package pdftex.def Info: images/spinning_ellipse/schlerienar0p5.png  used on in
 put line 344.
 (pdftex.def)             Requested size: 433.62003pt x 240.4827pt.
- [31
+ [32
 
  <./images/spinning_ellipse/ar1p5fsinf.png> <./images/spinning_ellipse/ar1p5fr1
 0.png> <./images/spinning_ellipse/ar1p5fr3.png> <./images/spinning_ellipse/ar1p
 5fr1.png> <./images/spinning_ellipse/ar1p5fr0p3.png> <./images/spinning_ellipse
-/ar1p5fr0p1.png> <./images/spinning_ellipse/scale1.png>] [32 <./images/spinning
+/ar1p5fr0p1.png> <./images/spinning_ellipse/scale1.png>] [33 <./images/spinning
 _ellipse/ar0p5fsinf.png> <./images/spinning_ellipse/ar0p5fr10.png> <./images/sp
 inning_ellipse/ar0p5fr3.png> <./images/spinning_ellipse/ar0p5fr1.png> <./images
 /spinning_ellipse/ar0p5fr0p3.png> <./images/spinning_ellipse/ar0p5fr0p1.png> <.
-/images/spinning_ellipse/schlerienar1p5.png>] [33 <./images/spinning_ellipse/sc
+/images/spinning_ellipse/schlerienar1p5.png>] [34 <./images/spinning_ellipse/sc
 hlerienar0p5.png>]))
 (./thesis.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
@@ -1960,7 +1955,7 @@ hlerienar0p5.png>]))
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-) [34
+) [35
 
 
 
@@ -1968,27 +1963,34 @@ hlerienar0p5.png>]))
 ]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [35
+ (./appendix.tex [36
 
 
-] [36
+]
+
+LaTeX Warning: Reference `table3' on page 37 undefined on input line 94.
 
 
-] [37] [38] [39] [40] [41]) [42
+LaTeX Warning: Reference `table5' on page 37 undefined on input line 95.
+
+[37
+
+
+] [38] [39]) [40
 
 ]
 \openout2 = `vita.aux'.
 
- (./vita.tex
-[43
+ (./vita.tex [41
 
 
 
 
-] [44]) (./thesis.aux (./abstract.aux) (./publicabstract.aux)
-(./dedication.aux) (./acknowl.aux) (./acronyms.aux) (./sample-chapter1.aux)
-(./sample-chapter2.aux) (./Introduction.aux) (./Objectives.aux)
-(./3_Approach.aux) (./4_Results.aux) (./appendix.aux) (./vita.aux))
+] [42]) (./thesis.aux (./abstract.aux)
+(./publicabstract.aux) (./dedication.aux) (./acknowl.aux) (./acronyms.aux)
+(./sample-chapter1.aux) (./sample-chapter2.aux) (./Introduction.aux)
+(./Objectives.aux) (./3_Approach.aux) (./4_Results.aux) (./appendix.aux)
+(./vita.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1996,13 +1998,13 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7543EE331894DE2E5DBF2689C11A7EAB;3717.
+(rerunfilecheck)             Checksum: B07EE201E50C22AD938EEABF9B6EB77E;3717.
  ) 
 Here is how much of TeX's memory you used:
- 50609 strings out of 480129
- 1295508 string characters out of 5893410
- 1909101 words of memory out of 5000000
- 67593 multiletter control sequences out of 15000+600000
+ 50603 strings out of 480129
+ 1295429 string characters out of 5893410
+ 1903761 words of memory out of 5000000
+ 67591 multiletter control sequences out of 15000+600000
  480499 words of font info for 69 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  84i,11n,89p,1802b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2019,10 +2021,10 @@ msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b>
-Output written on thesis.pdf (54 pages, 12243646 bytes).
+Output written on thesis.pdf (52 pages, 12242454 bytes).
 PDF statistics:
- 879 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 866 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
+ 144 named destinations out of 1000 (max. 500000)
  614 words of extra memory for PDF output out of 10000 (max. 10000000)
 
