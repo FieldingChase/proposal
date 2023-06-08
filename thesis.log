@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.7)  7 JUN 2023 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.7)  7 JUN 2023 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,6 +1154,10 @@ No file sample-chapter2.tex.
 
 (./Introduction.tex
 CHAPTER 1.
+
+LaTeX Warning: Citation `mercier_reflection_2008' on page 1 undefined on input 
+line 21.
+
 [1
 
 
@@ -1167,7 +1171,7 @@ CHAPTER 1.
 
 
 ] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
@@ -2001,10 +2005,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: B07EE201E50C22AD938EEABF9B6EB77E;3717.
  ) 
 Here is how much of TeX's memory you used:
- 50603 strings out of 480129
- 1295429 string characters out of 5893410
- 1903761 words of memory out of 5000000
- 67591 multiletter control sequences out of 15000+600000
+ 50604 strings out of 480129
+ 1295454 string characters out of 5893410
+ 1902761 words of memory out of 5000000
+ 67592 multiletter control sequences out of 15000+600000
  480499 words of font info for 69 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  84i,11n,89p,1802b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2021,7 +2025,7 @@ msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b>
-Output written on thesis.pdf (52 pages, 12242454 bytes).
+Output written on thesis.pdf (52 pages, 12242722 bytes).
 PDF statistics:
  866 PDF objects out of 1000 (max. 8388607)
  589 compressed objects within 6 object streams
