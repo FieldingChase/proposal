@@ -3,22 +3,23 @@
 \contentsline {chapter}{\textnormal {\textnormal {ACKNOWLEDGMENTS}}}{vi}{chapter*.1}%
 \contentsline {chapter}{\textnormal {LIST OF TABLES}}{viii}{chapter*.3}%
 \contentsline {chapter}{\textnormal {LIST OF FIGURES}}{ix}{chapter*.4}%
-\contentsline {chapter}{\textnormal {\textnormal {ACRONYMS}}}{x}{chapter*.5}%
+\contentsline {chapter}{\textnormal {\textnormal {NOTATIONS}}}{x}{chapter*.5}%
+\contentsline {chapter}{\textnormal {\textnormal {ACRONYMS}}}{xi}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Objectives}{5}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Approach}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Governing equations {\&} problem setup}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Schwarz-SEM framework}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Validation}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.1}Governing equations {\&} problem setup}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Schwarz-SEM framework}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Validation}{12}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Gravity wave analysis}{16}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Results}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Circle results}{17}{section.4.1}%
-\contentsline {subsubsection}{Drag and lift}{17}{subsubsection*.15}%
-\contentsline {subsubsection}{Flow structures}{21}{subsubsection*.20}%
+\contentsline {subsubsection}{Drag and lift}{17}{subsubsection*.16}%
+\contentsline {subsubsection}{Flow structures}{21}{subsubsection*.21}%
 \contentsline {section}{\numberline {4.2}Spinning ellipse}{26}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Drag and lift}{26}{subsection.4.2.1}%
-\contentsline {subsubsection}{Flow structures}{32}{subsubsection*.34}%
+\contentsline {subsubsection}{Flow structures}{32}{subsubsection*.35}%
 \contentsline {chapter}{REFERENCES}{35}{section.4.3}%
 \contentsline {chapter}{\textnormal {APPENDICES}}{36}{chapter.5}%
 \contentsline {section}{A\hspace {12pt} List of Edge Vectors}{37}{appendix.A}%
@@ -28,4 +29,4 @@
 \contentsline {section}{B\hspace {12pt} Another Example Appendix}{40}{appendix.B}%
 \contentsline {subsection}{\numberline {B.1}Background}{40}{subsection.B.0.1}%
 \contentsline {subsection}{\numberline {B.2}Meat of the Appendix}{40}{subsection.B.0.2}%
-\contentsline {chapter}{\textnormal {\textnormal {CURRICULUM VITAE}}}{41}{appendix*.42}%
+\contentsline {chapter}{\textnormal {\textnormal {CURRICULUM VITAE}}}{41}{appendix*.43}%
