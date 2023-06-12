@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic showing aspect ratios of interest\relax }}{11}{figure.caption.11}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces A figure showing the two meshes $\Omega ^1$ and $\Omega ^2$ in the Schwarz-SEM framework\relax }}{12}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Validation of the Schwarz-SEM framework at $\Omega ^{\ast }$ for stratified flow\relax }}{14}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison against Lua et al.\relax }}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison against Lu et al. \cite {lu_flow_2018} and Lua et al. \cite {lua_rotating_2018}\relax }}{15}{figure.caption.15}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces At higher rotation speeds, larger domain sizes are required\relax }}{16}{figure.caption.16}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Pressure and streamline plots at $H = 40D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{16}{figure.caption.17}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Polar plot of pressure on each surface\relax }}{17}{figure.caption.18}%

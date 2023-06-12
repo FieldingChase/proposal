@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {3.1}Governing equations {\&} problem setup}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Schwarz-SEM framework}{12}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Validation}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Gravity wave analysis}{18}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Gravity wave analysis}{19}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Results}{20}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Circle results}{20}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Drag and lift}{20}{subsection.4.1.1}%
