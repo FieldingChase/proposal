@@ -8,22 +8,24 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison against Lu et al. \cite {lu_flow_2018} and Lua et al. \cite {lua_rotating_2018}\relax }}{15}{figure.caption.15}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces At higher rotation speeds, larger domain sizes are required\relax }}{16}{figure.caption.16}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Pressure and streamline plots at $H = 40D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{16}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Polar plot of pressure on each surface\relax }}{17}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Pressure and streamline plots at $H=120D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, aspect ratio = 1\relax }}{18}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Time series data for nonspinning circle\relax }}{21}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Time series data for spinning circle\relax }}{22}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Mean drag and lift values for $\Omega ^{\ast } = {0,1}$\relax }}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces A comparison of the pressure fields for nonspinning and spinning circles\relax }}{23}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces A comparison of the y-velocity fields for nonspinning and spinning circles\relax }}{26}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces A comparison of the Schlerien fields for nonspinning and spinning circles\relax }}{27}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A close look of the Schlerien plots at the transition with spin\relax }}{28}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Drag and lift over time averaged across each period for $AR = 1.5$\relax }}{29}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Drag and lift over time averaged across each period for $AR = 0.5$\relax }}{30}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Phase averaged drag and lift for $AR = 1.5$\relax }}{30}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Phase averaged drag and lift for $AR = 0.5$\relax }}{30}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 1.5$\relax }}{32}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 0.5$\relax }}{33}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 1.5$\relax }}{35}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 0.5$\relax }}{35}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 1.5$\relax }}{36}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 0.5$\relax }}{36}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Polar plot of pressure on each surface at $\Omega ^{\ast } = 3$\relax }}{17}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Pressure and streamline plots at $H=120D$, $\Omega ^{\ast } = 3$, $\mathit {Re}= 200$, $AR = 1$\relax }}{18}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Effect of domain size at $Fr^2 = 0.01$, $AR = 1.5$, $\Omega ^{\ast }$\relax }}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Vertical velocity plots of $H = 40D$ and $H = 120D$ cases\relax }}{19}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Time series data for nonspinning circle\relax }}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Time series data for spinning circle\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Mean drag and lift values for $\Omega ^{\ast } = {0,1}$\relax }}{23}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces A comparison of the pressure fields for nonspinning and spinning circles\relax }}{24}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces A comparison of the y-velocity fields for nonspinning and spinning circles\relax }}{27}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces A comparison of the Schlerien fields for nonspinning and spinning circles\relax }}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A close look of the Schlerien plots at the transition with spin\relax }}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Drag and lift over time averaged across each period for $AR = 1.5$\relax }}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Drag and lift over time averaged across each period for $AR = 0.5$\relax }}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Phase averaged drag and lift for $AR = 1.5$\relax }}{32}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Phase averaged drag and lift for $AR = 0.5$\relax }}{32}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 1.5$\relax }}{34}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces A comparison of the pressure fields for spinning ellipse where $AR = 0.5$\relax }}{35}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 1.5$\relax }}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces A comparison of the y-velocity fields for spinning ellipse where $AR = 0.5$\relax }}{37}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 1.5$\relax }}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces A comparison of the Schlerien fields for spinning ellipse where $AR = 0.5$\relax }}{38}{figure.caption.43}%

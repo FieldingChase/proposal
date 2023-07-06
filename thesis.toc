@@ -12,21 +12,12 @@
 \contentsline {section}{\numberline {3.1}Governing equations {\&} problem setup}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Schwarz-SEM framework}{12}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Validation}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Gravity wave analysis}{19}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Results}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Circle results}{20}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Drag and lift}{20}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Flow structures}{24}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Spinning ellipse}{25}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Drag and lift}{25}{subsection.4.2.1}%
-\contentsline {subsubsection}{Flow structures}{34}{subsubsection*.37}%
-\contentsline {chapter}{REFERENCES}{37}{section.4.3}%
-\contentsline {chapter}{\textnormal {APPENDICES}}{38}{chapter.5}%
-\contentsline {section}{A\hspace {12pt} List of Edge Vectors}{39}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Definition of an Edge Vector}{39}{subsection.A.0.1}%
-\contentsline {subsection}{\numberline {A.2}Next Codebook Size Description}{39}{subsection.A.0.2}%
-\contentsline {subsection}{\numberline {A.3}Final Set of Codebook Size Descriptions}{39}{subsection.A.0.3}%
-\contentsline {section}{B\hspace {12pt} Another Example Appendix}{42}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Background}{42}{subsection.B.0.1}%
-\contentsline {subsection}{\numberline {B.2}Meat of the Appendix}{42}{subsection.B.0.2}%
-\contentsline {chapter}{\textnormal {\textnormal {CURRICULUM VITAE}}}{43}{appendix*.45}%
+\contentsline {section}{\numberline {3.4}Gravity wave analysis}{20}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Results}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Circle results}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Drag and lift}{21}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Flow structures}{25}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Spinning ellipse}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Drag and lift}{30}{subsection.4.2.1}%
+\contentsline {subsubsection}{Flow structures}{36}{subsubsection*.39}%
+\contentsline {chapter}{REFERENCES}{39}{section.4.3}%

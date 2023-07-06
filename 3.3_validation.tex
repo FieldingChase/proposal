@@ -68,5 +68,18 @@ In the symmetric boundary condition case, Fig. \ref{fig:sym12} shows how more ro
 
 Mittal and Kumar \cite{mittal_flow_2003} conducted a similar test looking only at symmetric boundary conditions. They conducted a study by varying the side length of a square mesh with a cylinder in the middle. They found that the drag values converge when the size of the domain is increased, which is consistent with our findings. However, their study changed both dimensions of the domain at the same time. Our study isolates the effect of the height of the domain. They did also find that lift is unaffected by domain size, which is consistent with our results. 
 
+We perform a similar analysis with respect to a case at the edge of our parameter space where $Fr^2 = 0.01$, $AR = 1.5$, $\Omega^{\ast}$ as Fig. \ref{fig:high_strat_mesh} shows. 
+\begin{figure}
+	\centerline{\includegraphics[width=\textwidth]{images/spinning_ellipse/high_strat_mesh.pdf}}
+	\caption{Effect of domain size at $Fr^2 = 0.01$, $AR = 1.5$, $\Omega^{\ast}$}
+	\label{fig:high_strat_mesh}
+\end{figure}
+An interesting pattern is how the two shorter domains produce closer drag and lift values than the $H = 120D$ case. Figure \ref{fig:strat_mesh} shows how the extended vertical boundaries allow the IGW to travel more freely.   
+\begin{figure}
+	\centerline{\includegraphics[width=\textwidth]{images/spinning_ellipse/strat_mesh.png}}
+	\caption{Vertical velocity plots of $H = 40D$ and $H = 120D$ cases}
+	\label{fig:strat_mesh}
+\end{figure}
+
 We ran our simulations with polynomial order $N = 11$. We ran a case with $N = 9, 11, 13$ which, on a grid of $E = 3712$ elements, correspond to gridpoint counts between $n = E \cdot 9^2 = 300,672$ and $n = E \cdot 13^2 = 627,328$. The change in drag is less than $1\%$ and the change in lift is less than $2\%$. The mesh independence cases were conducted on the $Fr^2 = 0.01$, $AR = 1.5, \Omega^{\ast}$ case.
 
